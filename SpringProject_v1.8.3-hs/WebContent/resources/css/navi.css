@@ -1,0 +1,19 @@
+#navi {
+	background: #09864c;
+}
+
+#navi ul { /* 여백, 패딩 0 */
+	margin: 0;
+	padding: 0;
+	width: 100%
+}
+
+#navi ul li {
+	display: inline; /* 새 줄로 넘어가지 않게 */
+	list-style-type: none; /* 마커 삭제 */
+	padding: 0px 50px;
+}
+
+#navi ul li a:link { color: white; text-decoration: none; }
+#navi ul li a:visited { color: white; text-decoration: none;}
+#navi ul li a:hover { color: white; text-decoration: underline;}
